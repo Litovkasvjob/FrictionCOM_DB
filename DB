@@ -1,0 +1,6 @@
+CREATE SCHEMA `libra_test` DEFAULT CHARACTER SET utf8 ;
+CREATE TABLE `libra_test`.`loads` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `time` INT(11) NOT NULL,
+  `load` VARCHAR(10) NOT NULL,
+  PRIMARY KEY (`id`));
